@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Wrap_Quiz{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Quiz{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:hsl(0, 0%, 12%) ;
+}
+.Quiz  .wrap_image_actor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Quiz .center_quiz{
+    width: 90%;
+    
+    
+}
+.Quiz .wrap_image_actor img{
+    width: 400px;
+}
+
+.Quiz div ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+    
+}
+.Quiz div ul label{
+    background-color:hsl(0, 1%, 31%) ;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid red;
+
+}
+.Quiz div ul label input {
+    opacity: 0;
+    position: absolute;
+     
+  }
+  .Quiz div ul label input:checked + label {
+    background-color: blue; 
+    color: white; 
+  }
+  
+.Quiz div .image_actor{
+    width: 450px;
+    height: 250px;
+}
+.btns_next{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.btn_passer , .btn_vraiment{
+    margin-top: 30px;
+    padding: 8px 15px;
+    font-size: 18px;
+    
+    
+}
+
+
+  
