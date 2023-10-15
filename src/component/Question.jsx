@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Film from '../data/data';
-import "../component/under_component/More.css";
+import "../css/More.css";
 import down from "../assets/chevron-down.png";
 import up from "../assets/chevron-up.png";
 import { motion } from 'framer-motion';

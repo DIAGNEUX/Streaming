@@ -4,7 +4,7 @@ import Film from '../data/data';
 import "../css/More.css";
 import { motion } from 'framer-motion';
 
-const Critique = () => {
+const Casting = () => {
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {
@@ -56,5 +56,5 @@ const Critique = () => {
   )
 }
 
-export default Critique;
+export default Casting;
 

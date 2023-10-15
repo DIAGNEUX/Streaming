@@ -1,4 +1,3 @@
-import React from "react";
 import Joaquin from "../assets/casting/hover/joker.jpg"
    
 

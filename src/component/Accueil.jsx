@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
 import "../App.css"
 
-export const Accueil = () => {
+const Accueil = () => {
   return (
     <div>
       <div className="Navbar_Accueil">
@@ -34,3 +34,4 @@ export const Accueil = () => {
     </div>
   )
 }
+export default Accueil
