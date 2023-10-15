@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/Streaming/static/css/main.073c9b0a.css",
-    "main.js": "/Streaming/static/js/main.e04c14bf.js",
+    "main.css": "/Streaming/static/css/main.191989d7.css",
+    "main.js": "/Streaming/static/js/main.96882435.js",
     "static/js/787.14e4bc02.chunk.js": "/Streaming/static/js/787.14e4bc02.chunk.js",
-    "static/media/logo.svg": "/Streaming/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/josh.png": "/Streaming/static/media/josh.74c744f44f44200775b9.png",
+    "static/media/bg joker.png": "/Streaming/static/media/bg joker.16926b0db86f22742f51.png",
+    "static/media/joker.jpg": "/Streaming/static/media/joker.ef9dc8d7e2204b978ee5.jpg",
+    "static/media/bill_camp.png": "/Streaming/static/media/bill_camp.119cabaedc4a2eb7e9c6.png",
+    "static/media/robert_de_niro.webp": "/Streaming/static/media/robert_de_niro.c4438e2da5896f74b07c.webp",
+    "static/media/joker grand.jpg": "/Streaming/static/media/joker grand.bb5ef18a5a4c66f35675.jpg",
+    "static/media/frances_conroy.webp": "/Streaming/static/media/frances_conroy.4118b3a1e9e813b087b3.webp",
+    "static/media/shea_whigham.webp": "/Streaming/static/media/shea_whigham.a39c0bdcc9647d5d82e6.webp",
+    "static/media/zazie_beetz.webp": "/Streaming/static/media/zazie_beetz.bc1f558e32026e7778d8.webp",
+    "static/media/good width.webp": "/Streaming/static/media/good width.15449a9fce5717e9c146.webp",
+    "static/media/avatar-2.png": "/Streaming/static/media/avatar-2.694ec412c70c8152b283.png",
+    "static/media/avatar-5.png": "/Streaming/static/media/avatar-5.67d72b83f542e564326a.png",
+    "static/media/avatar-3.png": "/Streaming/static/media/avatar-3.670496cfaab7c66270d4.png",
+    "static/media/avatar-4.png": "/Streaming/static/media/avatar-4.812864f7bad0d66b41e1.png",
+    "static/media/avatar-1.png": "/Streaming/static/media/avatar-1.18de20d5a05a94fc7a42.png",
+    "static/media/Zazie.jpeg": "/Streaming/static/media/Zazie.0ac5b6085c9fe2e3e629.jpeg",
+    "static/media/brett_cullen.webp": "/Streaming/static/media/brett_cullen.ee6601d97938dbce51ef.webp",
+    "static/media/joaquin_phoenix.webp": "/Streaming/static/media/joaquin_phoenix.3da09538baf87cd8c19c.webp",
     "index.html": "/Streaming/index.html",
-    "main.073c9b0a.css.map": "/Streaming/static/css/main.073c9b0a.css.map",
-    "main.e04c14bf.js.map": "/Streaming/static/js/main.e04c14bf.js.map",
+    "main.191989d7.css.map": "/Streaming/static/css/main.191989d7.css.map",
+    "main.96882435.js.map": "/Streaming/static/js/main.96882435.js.map",
     "787.14e4bc02.chunk.js.map": "/Streaming/static/js/787.14e4bc02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e04c14bf.js"
+    "static/css/main.191989d7.css",
+    "static/js/main.96882435.js"
   ]
 }
