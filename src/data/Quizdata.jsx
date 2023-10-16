@@ -1,4 +1,4 @@
-import Joaquin from "../assets/casting/hover/joker.jpg"
+import Joaquin from "../assets/joker/casting/hover/joker.jpg"
    
 
     const QuizData = [

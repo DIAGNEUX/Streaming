@@ -1,10 +1,9 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import Navbar from './component/Navbar';
+import { Routes, Route } from 'react-router-dom';
 import Accueil from './component/Accueil';
 import Question from './component/Question';
 import Casting from './component/Casting';
-import Film from './data/data'
 import { Quiz } from './component/Quiz';
 import More from './component/under_component/More';
 
@@ -15,6 +14,11 @@ const App = () => {
   
   return (
       <div className='wrapper'> 
+      <div className="wrapper_navbar">
+      <div className='Navbar'>
+        <Navbar/>
+      </div>
+      </div>
           <Routes>
             <Route path="/Streaming" element={< Accueil />} />
             <Route path="/" element={<Accueil />} />

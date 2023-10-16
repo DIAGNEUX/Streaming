@@ -34,9 +34,6 @@ export const Quiz = () => {
 
   return (
     <div>
-      <div className="Navbar">
-        <Navbar />
-      </div>
       <div className="Wrap_Quiz">
         <div className='Quiz'>
           <div className='center_quiz'>

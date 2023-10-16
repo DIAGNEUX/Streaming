@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Film from '../data/data';
+import Films from '../data/data';
 import "../css/More.css";
 import { motion } from 'framer-motion';
 
@@ -27,9 +27,6 @@ const Casting = () => {
 
   return (
     <div>
-      <div className="Navbar">
-        <Navbar />
-      </div>
       <div className="wrap_casting">
         <div className='Casting'>
           <motion.div
@@ -38,7 +35,7 @@ const Casting = () => {
             animate="visible"
             style={{ display: "flex" , flexWrap : "wrap", gap: "100px",alignItems:"center", justifyContent: "center"}} 
           >
-            {Film.Casting.map((cast, index) => (
+            {Films.Casting.map((cast, index) => (
               <motion.div
                 key={index}
                 className="card"

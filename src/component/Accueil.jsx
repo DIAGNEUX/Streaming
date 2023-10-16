@@ -6,9 +6,6 @@ import "../App.css"
 const Accueil = () => {
   return (
     <div>
-      <div className="Navbar_Accueil">
-          <Navbar />
-        </div>
     <div className='wrap_contain'>  
     <div className='left'>
       <h1>Joker</h1>

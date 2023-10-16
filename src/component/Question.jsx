@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import Film from '../data/data';
+import Films from '../data/data'
 import "../css/More.css";
 import down from "../assets/chevron-down.png";
 import up from "../assets/chevron-up.png";
@@ -34,9 +34,6 @@ const Question = () => {
 
     return (
         <div>
-            <div className="Navbar">
-                <Navbar />
-            </div>
             <div className="wrap_question">
                 <div className='Question'>
                     <h1>Question</h1>
@@ -45,7 +42,7 @@ const Question = () => {
       initial="hidden"
       animate="visible"
     >
-      {Film.questions.map((question, index) => (
+      {Films.questions.map((question, index) => (
         <motion.li
           key={index}
           onClick={() => toggleResponse(index)}

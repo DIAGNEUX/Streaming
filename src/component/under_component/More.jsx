@@ -1,8 +1,8 @@
 import React from 'react';
 import { Form, Link } from 'react-router-dom';
 import Navbar from '../Navbar';
-import laught from '../../assets/good width.webp';
-import affiche from '../../assets/joker grand.jpg';
+import laught from '../../assets/joker/good width.webp';
+import affiche from '../../assets/joker/joker grand.jpg';
 import "../../css/More.css";
 import Film from "../../data/data.jsx";
 

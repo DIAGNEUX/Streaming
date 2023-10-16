@@ -8,34 +8,54 @@ body{
   color: white;
 }
 .wrap_contain{
-  background-image: url(./assets/bg\ joker.png);
+  background-image: url(./assets/joker/bg\ joker.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-  height: 100vh;
+
 }
-.Navbar_Accueil .navbar{
+
+.Navbar .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 70px;
   background-color: transparent;
-  position: absolute;
   width: 100%;
-  top: 0;
-
   
 }
-.Navbar .navbar{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 70px;
-  background-color: transparent;
-  width: 100%;
 
+.navbar.sticky {
+  width: 90%;
+  margin: auto; 
+  padding: 0 5%; 
+  position: fixed;
+  top: 5px;
+  left: 0;
+  right: 0;
+  background-color: black;
+  border-radius: 20px;
+  z-index: 1000;
+  box-shadow: 3px 3px 3px 3px rgb(74, 74, 74);
+  transition: width 0.5s; 
+   
 
 }
+
+.wrapper_navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+
+
 .navbar ul li{
   display: inline-block;
   margin: 0 20px;
@@ -56,7 +76,7 @@ body{
 .left{
   margin-top: 50px;
   width: 37%;
-  height: 450px;
+  height: 800px;
   padding: 20px;
   position: relative;
 }
