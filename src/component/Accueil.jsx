@@ -50,7 +50,7 @@ const Accueil = () => {
               <h1>{Films[film].titre}</h1>
               <p>{Films[film].description}</p>
               <div className='btn_info'>
-                <button>En savoir plus</button>
+                <button><Link to={`/film/${film}`}>En savoir plus</Link></button>
               </div>
               </div>
               </div>

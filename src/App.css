@@ -179,7 +179,10 @@ body{
   border-radius: 10px;
   cursor: pointer;
 }
-
+.btn_info button a{
+  color: white;
+  text-decoration: none;
+}
 
 
 .wrap_movies{

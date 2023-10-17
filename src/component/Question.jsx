@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar';
+import { useParams } from 'react-router-dom';
 import Films from '../data/data'
 import "../css/More.css";
 import down from "../assets/chevron-down.png";
@@ -7,6 +7,8 @@ import up from "../assets/chevron-up.png";
 import { motion } from 'framer-motion';
 
 const Question = () => {
+  const { filmTitre } = useParams();
+  const film = Films[filmTitre];
     const [showResponse, setShowResponse] = useState(null);
 
     const toggleResponse = (index) => {
@@ -37,17 +39,19 @@ const Question = () => {
             <div className="wrap_question">
                 <div className='Question'>
                     <h1>Question</h1>
+                    <hr />
                     <motion.ul
       variants={container}
       initial="hidden"
       animate="visible"
     >
-      {Films.questions.map((question, index) => (
+      {film.questions.map((question, index) => (
         <motion.li
           key={index}
           onClick={() => toggleResponse(index)}
           variants={item}
         >
+          
           <h2>
             {question.question}
             <img src={showResponse === index ? up : down} />

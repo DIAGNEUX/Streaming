@@ -32,8 +32,49 @@
 .rate{
     width: 400px;
     margin-left: 10px;
-    height: 100vh;
+  
 }
+.rapide{
+    max-height: 85px;
+    margin-top: 20px;
+}
+.rapide ul{
+    list-style: none;
+    padding: 10px 0;
+}
+.rapide ul li{
+    margin: 30px 0;
+    font-size: 20px;
+}
+.rapide ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.rapide ul li a:hover{
+    opacity: 1.5;
+
+}
+.rapide ul li:hover{
+    padding: 10px 0;
+}
+.rapide.rapide_sticky {
+    width: 200px;
+    position: sticky;
+    min-height: 85vh;
+    top: 80px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    z-index: 1000;
+    margin-top: 40px;
+    
+     
+     
+  
+  }
+  
 
 .other_detail .rate .star{
     display: flex; 
@@ -59,7 +100,7 @@
 
 .other_detail .detail_ul li{
     margin: 10px 0;
-    width: 70%;
+    width: 100%;
 }
 .other_detail .detail_ul li b{
     font-size: 18px;
@@ -157,14 +198,9 @@
     color: white;
 }
 .wrap_question{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
 }
-.wrap_question .Question{
-    width: 80%;
-}
+
 .wrap_question .Question ul {
     list-style: none;
 
@@ -172,7 +208,7 @@
 .wrap_question .Question ul li{
     margin: 30px 0;
     padding: 10px 20px;
-    background-color:hsl(0, 0%, 12%) ;
+    background-color:black ;
     font-size: 20px;
     border-radius: 25px;
 }
@@ -180,17 +216,17 @@
 .wrap_question .Question h2{
     display: flex;
     font-size: 23px;
+    align-items: center;
+    justify-content: space-between;
 }
 .wrap_question .Question h2 img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 .wrap_question .Question p{
     margin: 10px 0;
     opacity: 0.9;
 }
-
-
 
 .movie-image {
     display: none;
@@ -216,4 +252,3 @@
     height: calc(100% - 20px) ;
     object-fit: cover;
 }
-

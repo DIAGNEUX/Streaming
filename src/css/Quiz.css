@@ -4,78 +4,64 @@
 }
 .Wrap_Quiz{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 }
 .Quiz{
-    width: 50%;
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+}
+.Quiz .left_quiz ,
+.Quiz .right_quiz
+{
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    border-radius: 30px;
-    background-color:hsl(0, 0%, 12%) ;
-}
-.Quiz  .wrap_image_actor{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Quiz .center_quiz{
-    width: 90%;
     
     
 }
-.Quiz .wrap_image_actor img{
-    width: 400px;
-}
-
-.Quiz div ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    gap: 40px;
-    
-    
-}
-.Quiz div ul label{
-    background-color:hsl(0, 1%, 31%) ;
-    width: 200px;
-    padding: 10px 20px;
-    border: 1px solid red;
-
-}
-.Quiz div ul label input {
-    opacity: 0;
-    position: absolute;
-     
-  }
-  .Quiz div ul label input:checked + label {
-    background-color: blue; 
-    color: white; 
-  }
-  
-.Quiz div .image_actor{
+.Quiz .left_quiz h1 {
+    font-size: 60px;
     width: 450px;
-    height: 250px;
 }
-.btns_next{
+.Quiz .left_quiz p{
+    font-size: 25px;
+    width: 540px;
+    opacity: 0.9;
+    margin: 10px 0;
+}
+.Wrap_Quiz .clap .clappedboard{
+    width: 300px;
+    height: 300px;
+}
+.Wrap_Quiz .clap .quiz_img{
+    width: 450px;
+    height: 450px;
+   
+}
+.wrap_card_quiz{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
 }
-.btn_passer , .btn_vraiment{
-    margin-top: 30px;
-    padding: 8px 15px;
-    font-size: 18px;
+.card_quiz{
+    width:  80%;
+}
+.card_quiz ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    list-style: none;
+
+}
+.card_quiz ul li{ 
+    width: 300px;
+    height: 200px;
+    border: 1px solid orange;
     
+
     
 }
-
-
-  
