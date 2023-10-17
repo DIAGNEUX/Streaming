@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/Streaming/static/css/main.6f72bd96.css",
-    "main.js": "/Streaming/static/js/main.1f50d2a0.js",
+    "main.css": "/Streaming/static/css/main.e406721f.css",
+    "main.js": "/Streaming/static/js/main.d49be215.js",
     "static/js/787.14e4bc02.chunk.js": "/Streaming/static/js/787.14e4bc02.chunk.js",
+    "static/media/la_la_land width.jpg": "/Streaming/static/media/la_la_land width.c9108b992e70cf90dd85.jpg",
     "static/media/josh.png": "/Streaming/static/media/josh.74c744f44f44200775b9.png",
-    "static/media/bg joker.png": "/Streaming/static/media/bg joker.16926b0db86f22742f51.png",
+    "static/media/Titanic width.jpg": "/Streaming/static/media/Titanic width.46910641e1d98139aa57.jpg",
+    "static/media/black_panther width.jpg": "/Streaming/static/media/black_panther width.7779b86486199509712c.jpg",
+    "static/media/we_are_your_friends width.jpg": "/Streaming/static/media/we_are_your_friends width.b43eacf680bd56d34d46.jpg",
+    "static/media/avengers_endgame width.jpg": "/Streaming/static/media/avengers_endgame width.b689f01813806ae336ab.jpg",
     "static/media/joker.jpg": "/Streaming/static/media/joker.ef9dc8d7e2204b978ee5.jpg",
+    "static/media/fastfurious width.jpg": "/Streaming/static/media/fastfurious width.08790373b4a0b9ba4428.jpg",
     "static/media/bill_camp.png": "/Streaming/static/media/bill_camp.119cabaedc4a2eb7e9c6.png",
     "static/media/jonny_weston.png": "/Streaming/static/media/jonny_weston.7e33ffbbe11015691cda.png",
     "static/media/angela_bassett.webp": "/Streaming/static/media/angela_bassett.279d69e0c2574ff584c4.webp",
@@ -45,6 +50,7 @@
     "static/media/jeremy_renner.webp": "/Streaming/static/media/jeremy_renner.26a97c1172bf7e5a6365.webp",
     "static/media/Zazie.jpeg": "/Streaming/static/media/Zazie.0ac5b6085c9fe2e3e629.jpeg",
     "static/media/ian_holm.webp": "/Streaming/static/media/ian_holm.3f5195ffc2f3f2932602.webp",
+    "static/media/Seigneur width.jpeg": "/Streaming/static/media/Seigneur width.666be522107cc81ea475.jpeg",
     "static/media/brett_cullen.webp": "/Streaming/static/media/brett_cullen.ee6601d97938dbce51ef.webp",
     "static/media/frances_fisher.webp": "/Streaming/static/media/frances_fisher.8835116804bbaab5ca50.webp",
     "static/media/Emily_Ratajkowski.webp": "/Streaming/static/media/Emily_Ratajkowski.a7a84a84a34119b47340.webp",
@@ -62,12 +68,12 @@
     "static/media/Chadwick_Boseman.webp": "/Streaming/static/media/Chadwick_Boseman.caf126571b426cbb5264.webp",
     "static/media/sala_baker.webp": "/Streaming/static/media/sala_baker.4feb13f59866ed148416.webp",
     "index.html": "/Streaming/index.html",
-    "main.6f72bd96.css.map": "/Streaming/static/css/main.6f72bd96.css.map",
-    "main.1f50d2a0.js.map": "/Streaming/static/js/main.1f50d2a0.js.map",
+    "main.e406721f.css.map": "/Streaming/static/css/main.e406721f.css.map",
+    "main.d49be215.js.map": "/Streaming/static/js/main.d49be215.js.map",
     "787.14e4bc02.chunk.js.map": "/Streaming/static/js/787.14e4bc02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f72bd96.css",
-    "static/js/main.1f50d2a0.js"
+    "static/css/main.e406721f.css",
+    "static/js/main.d49be215.js"
   ]
 }
