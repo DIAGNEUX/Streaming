@@ -86,12 +86,26 @@ import Shea from "../assets/joker/casting/hover/shea.jpeg";
 import Zazie  from "../assets/joker/casting/hover/Zazie.jpeg"
 
 // joker
+// affiche
+
+import Avengers_Affiche from "../assets/Avengers/avengers_endgame width.jpg"
+import B_Panther_Affiche from "../assets/BlackPanther/black_panther width.jpg"
+import Fastfurious_Affiche from "../assets/FastandFurious/fastfurious width.jpg"
+import Joker_Affiche from "../assets/joker/good width.webp"
+import Lalaland_Affiche from "../assets/La La Land/la_la_land width.jpg"
+import Seigneur_Affiche from "../assets/SeigneurdesAnneaux/Seigneur width.jpeg"
+import Titanic_Affiche from "../assets/Titanic/Titanic width.jpg"
+import WAF_Affiche from "../assets/We Are Your Friends/we_are_your_friends width.jpg"
+
+
+
 
 // Tout ce qui est importation d'image
 
 const Films = {
     // Joker
     joker:{
+      Affiche: Joker_Affiche,
     Genre: "Policier, Drame, Thriller",
     titre: "Joker",
     notation: 4.5,
@@ -175,6 +189,7 @@ const Films = {
 
   FastAndFurious9:{
     Genre: "Action, Aventure",
+    Affiche: Fastfurious_Affiche,
   titre: "Fast & Furious 9",
   notation: 4.2,
   star: 4,
@@ -236,7 +251,8 @@ const Films = {
 
   SeigneurdesAnneaux :{
     Genre: "Fantaisie, Aventure",
-    titre: "Le Seigneur des Anneaux : La Communauté de l'Anneau",
+      Affiche: Seigneur_Affiche,
+    titre: "Le Seigneur des Anneaux ",
     notation: 4.7,
     star: 4.5,
     date: "2001",
@@ -296,6 +312,7 @@ const Films = {
 
 //   BlackPanther
   BlackPanther : {
+    Affiche: B_Panther_Affiche,
     Genre: "Super-héros, Action",
     titre: "Black Panther",
     notation: 4.6,
@@ -358,7 +375,8 @@ const Films = {
 
     AvengersEndgame: {
       Genre: "Super-héros, Action",
-      titre: "Avengers: Endgame",
+      Affiche : Avengers_Affiche,
+      titre: "Avengers",
       notation: 4.8,
       star: 4.5,
       date: "2019",
@@ -450,6 +468,7 @@ const Films = {
     // Titanic
     Titanic: {
           Genre: "Drame, Romance",
+          Affiche: Titanic_Affiche,
           titre: "Titanic",
           notation: 4.7,
           star: 4.5,
@@ -541,6 +560,7 @@ const Films = {
 
         LaLaLand: {
               Genre: "Comédie musicale, Drame, Romance",
+              Affiche: Lalaland_Affiche,
               titre: "La La Land",
               notation: 4.6,
               star: 4.5,
@@ -633,6 +653,7 @@ const Films = {
 
             WeAreYourFriends: {
                 Genre: "Drame, Musique",
+                Affiche:WAF_Affiche,
                 titre: "We Are Your Friends",
                 notation: 3.9,
                 star: 3.5,
