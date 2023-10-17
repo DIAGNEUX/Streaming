@@ -3,6 +3,7 @@ import "../App.css";
 import leftfleche from "../assets/left.png";
 import rightfleche from "../assets/right.png";
 import Films from '../data/data';
+import { Link } from 'react-router-dom';
 
 const Accueil = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -71,8 +72,44 @@ const Accueil = () => {
           <img src={rightfleche} alt="Suivant" />
         </div>
       </div>
-      <div className="test">
-
+      <h2>Pour toi</h2>
+      <div className="wrap_movies">
+        {slides.slice(0,4).map((film , index)=> (
+          <div className='wrap_img_movies'>
+             <img src={Films[film].img} alt="" className="original-img" />
+             <div className='hover-img'>
+             <img src={Films[film].Affiche} alt="" className="" />
+             <div className="par_movies">
+             <div>
+             <h1>{Films[film].titre}</h1>
+             
+             <button>
+             <Link to={`/film/${film}`}>En savoir plus</Link>
+             </button>
+             </div>
+             </div>
+             </div>
+          </div>
+        ))}
+      </div>
+      <h2>Pour toi</h2>
+      <div className='wrap_movies'>
+      {slides.slice(4,8).map((film , index)=> (
+          <div className='wrap_img_movies'>
+            <img src={Films[film].img} alt="" className="original-img" />
+            <div className='hover-img'>
+             <img src={Films[film].Affiche} alt="" className="" />
+             <div className="par_movies">
+              <div>
+             <h1>{Films[film].titre}</h1>
+             <button>
+             <Link to={`/film/${film}`}>En savoir plus</Link>
+             </button>
+             </div>
+             </div>
+             </div>
+              </div>
+        ))}
       </div>
       </div>
   );

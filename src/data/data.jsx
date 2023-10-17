@@ -93,9 +93,19 @@ import B_Panther_Affiche from "../assets/BlackPanther/black_panther width.jpg"
 import Fastfurious_Affiche from "../assets/FastandFurious/fastfurious width.jpg"
 import Joker_Affiche from "../assets/joker/good width.webp"
 import Lalaland_Affiche from "../assets/La La Land/la_la_land width.jpg"
-import Seigneur_Affiche from "../assets/SeigneurdesAnneaux/Seigneur width.jpeg"
+import Seigneur_Affiche from "../assets/SeigneurdesAnneaux/le_seigneur_des_anneaux large.webp"
 import Titanic_Affiche from "../assets/Titanic/Titanic width.jpg"
 import WAF_Affiche from "../assets/We Are Your Friends/we_are_your_friends width.jpg"
+
+import img_b_panther from "../assets/BlackPanther/black_panther.jpg"
+import img_avengers from "../assets/Avengers/avengers_endgame.jpg"
+import img_f_furious from "../assets/FastandFurious/fast_furious_9.jpg"
+import img_joker from "../assets/joker/joker grand.jpg"
+import img_lalaland from "../assets/La La Land/la_la_land.jpg"
+import img_SDA from "../assets/SeigneurdesAnneaux/le_seigneur_des_anneaux.jpg"
+import img_titanic from "../assets/Titanic/titanic.jpg"
+import img_WAF from "../assets/We Are Your Friends/we_are_your_friends.jpg"
+
 
 
 
@@ -103,8 +113,101 @@ import WAF_Affiche from "../assets/We Are Your Friends/we_are_your_friends width
 // Tout ce qui est importation d'image
 
 const Films = {
+  LaLaLand: {
+    Genre: "Comédie musicale, Drame, Romance",
+    Affiche: Lalaland_Affiche,
+    img: img_lalaland,
+    titre: "La La Land",
+    notation: 4.6,
+    star: 4.5,
+    date: "2016",
+    Scénaristes: "Damien Chazelle",
+    pays: "États-Unis",
+    vue: "58.7k",
+    synopsys:
+      "L'histoire de l'amour entre un pianiste de jazz et une aspirante actrice à Los Angeles, mise en scène à travers des numéros de danse et de musique entraînants.",
+    description:
+      "Sebastian, un pianiste de jazz passionné, et Mia, une aspirante actrice, se rencontrent à Los Angeles. Ils tombent amoureux tout en poursuivant leurs rêves artistiques. Le film raconte leur histoire d'amour tumultueuse, pleine de musique, de danse et de rêves de réussite à Hollywood.",
+    durée: "2h08",
+    produceurs: ["Fred Berger", "Jordan Horowitz", "Marc Platt"],
+    Réalisateur: "Damien Chazelle",
+    critiques: [
+      {
+        img: avatar1,
+        nom: "Alice Dupont",
+        critique:
+          "La La Land est une célébration enchanteresse de la musique, de la danse et de l'amour. Ryan Gosling et Emma Stone sont magnifiques en tant que couple principal."
+      },
+      {
+        img: avatar2,
+        nom: "Benjamin Reyes",
+        critique:
+          "Le film capte la magie de Los Angeles et offre une bande originale mémorable. C'est une déclaration d'amour à la créativité et à la persévérance."
+      },
+      {
+        img: avatar3,
+        nom: "Claire Anderson",
+        critique:
+          "Les numéros musicaux sont époustouflants, et l'alchimie entre les acteurs est palpable. Damien Chazelle a créé un chef-d'œuvre moderne de la comédie musicale."
+      },
+      {
+        img: avatar4,
+        nom: "David Mitchell",
+        critique:
+          "La La Land parvient à mélanger habilement le réalisme et la fantaisie, créant une expérience cinématographique unique. Le final est à couper le souffle."
+      },
+      {
+        img: avatar5,
+        nom: "Emily Taylor",
+        critique:
+          "La La Land est un conte émouvant sur la poursuite de ses rêves, même au prix de sacrifices personnels. C'est un film qui résonne avec le public."
+      },
+    ],
+    questions: [
+      {
+        question: "Comment le film mélange-t-il réalisme et numéros musicaux?",
+        reponse:
+          "La La Land intègre les numéros musicaux de manière organique dans l'histoire, créant un équilibre entre réalisme et fantaisie. Les personnages s'expriment souvent par la danse et la musique."
+      },
+      {
+        question: "Quel rôle joue la ville de Los Angeles dans le film?",
+        reponse:
+          "Los Angeles est presque un personnage en soi dans le film, servant de toile de fond à l'histoire d'amour et à la quête artistique des protagonistes."
+      },
+      {
+        question: "Comment Damien Chazelle a-t-il créé les séquences de danse complexes?",
+        reponse:
+          "Les séquences de danse ont été minutieusement chorégraphiées et tournées pour donner l'impression de fluidité et d'effortless. Beaucoup de pratique a été nécessaire."
+      },
+      {
+        question: "Quelles sont les influences cinématographiques et musicales de La La Land?",
+        reponse:
+          "Le film s'inspire des classiques de la comédie musicale hollywoodienne tout en apportant une touche moderne. La musique de Justin Hurwitz est influencée par le jazz traditionnel."
+      },
+      {
+        question: "Quels sont les thèmes centraux du film?",
+        reponse:
+          "La La Land explore la persévérance artistique, les choix de vie et l'amour. Il pose également la question de savoir si l'amour et les rêves sont compatibles."
+      },
+      {
+        question: "Comment se déroule le final du film, et quel impact a-t-il sur l'histoire?",
+        reponse:
+          "Le final est une séquence mémorable qui remet en question les choix des personnages et offre une conclusion à la fois amère et pleine d'espoir."
+      },
+    ],
+    Casting: [
+      { nom: "Ryan Gosling", image: RyanGosling },
+      { nom: "Emma Stone", image: EmmaStone },
+      { nom: "John Legend", image: JohnLegend },
+      { nom: "J.K. Simmons", image: JKSimmons },
+      { nom: "Rosemarie DeWitt", image: RosemarieDeWitt },
+      { nom: "Finn Wittrock", image: FinnWittrock },
+    ]
+  },
+
     // Joker
     joker:{
+      img: img_joker,
       Affiche: Joker_Affiche,
     Genre: "Policier, Drame, Thriller",
     titre: "Joker",
@@ -190,6 +293,7 @@ const Films = {
   FastAndFurious9:{
     Genre: "Action, Aventure",
     Affiche: Fastfurious_Affiche,
+    img: img_f_furious,
   titre: "Fast & Furious 9",
   notation: 4.2,
   star: 4,
@@ -251,6 +355,7 @@ const Films = {
 
   SeigneurdesAnneaux :{
     Genre: "Fantaisie, Aventure",
+    img: img_SDA,
       Affiche: Seigneur_Affiche,
     titre: "Le Seigneur des Anneaux ",
     notation: 4.7,
@@ -313,6 +418,7 @@ const Films = {
 //   BlackPanther
   BlackPanther : {
     Affiche: B_Panther_Affiche,
+    img: img_b_panther,
     Genre: "Super-héros, Action",
     titre: "Black Panther",
     notation: 4.6,
@@ -375,6 +481,7 @@ const Films = {
 
     AvengersEndgame: {
       Genre: "Super-héros, Action",
+      img: img_avengers,
       Affiche : Avengers_Affiche,
       titre: "Avengers",
       notation: 4.8,
@@ -469,6 +576,7 @@ const Films = {
     Titanic: {
           Genre: "Drame, Romance",
           Affiche: Titanic_Affiche,
+          img: img_titanic,
           titre: "Titanic",
           notation: 4.7,
           star: 4.5,
@@ -558,102 +666,14 @@ const Films = {
         },
         // La La Land
 
-        LaLaLand: {
-              Genre: "Comédie musicale, Drame, Romance",
-              Affiche: Lalaland_Affiche,
-              titre: "La La Land",
-              notation: 4.6,
-              star: 4.5,
-              date: "2016",
-              Scénaristes: "Damien Chazelle",
-              pays: "États-Unis",
-              vue: "58.7k",
-              synopsys:
-                "L'histoire de l'amour entre un pianiste de jazz et une aspirante actrice à Los Angeles, mise en scène à travers des numéros de danse et de musique entraînants.",
-              description:
-                "Sebastian, un pianiste de jazz passionné, et Mia, une aspirante actrice, se rencontrent à Los Angeles. Ils tombent amoureux tout en poursuivant leurs rêves artistiques. Le film raconte leur histoire d'amour tumultueuse, pleine de musique, de danse et de rêves de réussite à Hollywood.",
-              durée: "2h08",
-              produceurs: ["Fred Berger", "Jordan Horowitz", "Marc Platt"],
-              Réalisateur: "Damien Chazelle",
-              critiques: [
-                {
-                  img: avatar1,
-                  nom: "Alice Dupont",
-                  critique:
-                    "La La Land est une célébration enchanteresse de la musique, de la danse et de l'amour. Ryan Gosling et Emma Stone sont magnifiques en tant que couple principal."
-                },
-                {
-                  img: avatar2,
-                  nom: "Benjamin Reyes",
-                  critique:
-                    "Le film capte la magie de Los Angeles et offre une bande originale mémorable. C'est une déclaration d'amour à la créativité et à la persévérance."
-                },
-                {
-                  img: avatar3,
-                  nom: "Claire Anderson",
-                  critique:
-                    "Les numéros musicaux sont époustouflants, et l'alchimie entre les acteurs est palpable. Damien Chazelle a créé un chef-d'œuvre moderne de la comédie musicale."
-                },
-                {
-                  img: avatar4,
-                  nom: "David Mitchell",
-                  critique:
-                    "La La Land parvient à mélanger habilement le réalisme et la fantaisie, créant une expérience cinématographique unique. Le final est à couper le souffle."
-                },
-                {
-                  img: avatar5,
-                  nom: "Emily Taylor",
-                  critique:
-                    "La La Land est un conte émouvant sur la poursuite de ses rêves, même au prix de sacrifices personnels. C'est un film qui résonne avec le public."
-                },
-              ],
-              questions: [
-                {
-                  question: "Comment le film mélange-t-il réalisme et numéros musicaux?",
-                  reponse:
-                    "La La Land intègre les numéros musicaux de manière organique dans l'histoire, créant un équilibre entre réalisme et fantaisie. Les personnages s'expriment souvent par la danse et la musique."
-                },
-                {
-                  question: "Quel rôle joue la ville de Los Angeles dans le film?",
-                  reponse:
-                    "Los Angeles est presque un personnage en soi dans le film, servant de toile de fond à l'histoire d'amour et à la quête artistique des protagonistes."
-                },
-                {
-                  question: "Comment Damien Chazelle a-t-il créé les séquences de danse complexes?",
-                  reponse:
-                    "Les séquences de danse ont été minutieusement chorégraphiées et tournées pour donner l'impression de fluidité et d'effortless. Beaucoup de pratique a été nécessaire."
-                },
-                {
-                  question: "Quelles sont les influences cinématographiques et musicales de La La Land?",
-                  reponse:
-                    "Le film s'inspire des classiques de la comédie musicale hollywoodienne tout en apportant une touche moderne. La musique de Justin Hurwitz est influencée par le jazz traditionnel."
-                },
-                {
-                  question: "Quels sont les thèmes centraux du film?",
-                  reponse:
-                    "La La Land explore la persévérance artistique, les choix de vie et l'amour. Il pose également la question de savoir si l'amour et les rêves sont compatibles."
-                },
-                {
-                  question: "Comment se déroule le final du film, et quel impact a-t-il sur l'histoire?",
-                  reponse:
-                    "Le final est une séquence mémorable qui remet en question les choix des personnages et offre une conclusion à la fois amère et pleine d'espoir."
-                },
-              ],
-              Casting: [
-                { nom: "Ryan Gosling", image: RyanGosling },
-                { nom: "Emma Stone", image: EmmaStone },
-                { nom: "John Legend", image: JohnLegend },
-                { nom: "J.K. Simmons", image: JKSimmons },
-                { nom: "Rosemarie DeWitt", image: RosemarieDeWitt },
-                { nom: "Finn Wittrock", image: FinnWittrock },
-              ]
-            },
-
+       
             // WeAreYourFriends
 
             WeAreYourFriends: {
+
                 Genre: "Drame, Musique",
                 Affiche:WAF_Affiche,
+                img: img_WAF,
                 titre: "We Are Your Friends",
                 notation: 3.9,
                 star: 3.5,
