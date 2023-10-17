@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Streaming/static/css/main.62b14092.css",
-    "main.js": "/Streaming/static/js/main.16296115.js",
+    "main.css": "/Streaming/static/css/main.dfa2e578.css",
+    "main.js": "/Streaming/static/js/main.62b0f119.js",
     "static/js/787.14e4bc02.chunk.js": "/Streaming/static/js/787.14e4bc02.chunk.js",
     "static/media/la_la_land width.jpg": "/Streaming/static/media/la_la_land width.c9108b992e70cf90dd85.jpg",
     "static/media/fast_furious_9.jpg": "/Streaming/static/media/fast_furious_9.3644ace179f08323cb20.jpg",
@@ -10,9 +10,11 @@
     "static/media/we_are_your_friends.jpg": "/Streaming/static/media/we_are_your_friends.e9cc9a85969dc1bd9cd5.jpg",
     "static/media/Titanic width.jpg": "/Streaming/static/media/Titanic width.46910641e1d98139aa57.jpg",
     "static/media/black_panther width.jpg": "/Streaming/static/media/black_panther width.7779b86486199509712c.jpg",
+    "static/media/clappedboard.png": "/Streaming/static/media/clappedboard.e4a22119b36c2660c05d.png",
     "static/media/avengers_endgame.jpg": "/Streaming/static/media/avengers_endgame.509969635896c314fae0.jpg",
     "static/media/we_are_your_friends width.jpg": "/Streaming/static/media/we_are_your_friends width.b43eacf680bd56d34d46.jpg",
     "static/media/la_la_land.jpg": "/Streaming/static/media/la_la_land.74c5acf87450c4c7d9a2.jpg",
+    "static/media/quizineed.png": "/Streaming/static/media/quizineed.2089a66343dacc3e464a.png",
     "static/media/avengers_endgame width.jpg": "/Streaming/static/media/avengers_endgame width.b689f01813806ae336ab.jpg",
     "static/media/le_seigneur_des_anneaux large.webp": "/Streaming/static/media/le_seigneur_des_anneaux large.c352da590bd6029b2b61.webp",
     "static/media/black_panther.jpg": "/Streaming/static/media/black_panther.896449fdab113da482fa.jpg",
@@ -75,12 +77,12 @@
     "static/media/Chadwick_Boseman.webp": "/Streaming/static/media/Chadwick_Boseman.caf126571b426cbb5264.webp",
     "static/media/sala_baker.webp": "/Streaming/static/media/sala_baker.4feb13f59866ed148416.webp",
     "index.html": "/Streaming/index.html",
-    "main.62b14092.css.map": "/Streaming/static/css/main.62b14092.css.map",
-    "main.16296115.js.map": "/Streaming/static/js/main.16296115.js.map",
+    "main.dfa2e578.css.map": "/Streaming/static/css/main.dfa2e578.css.map",
+    "main.62b0f119.js.map": "/Streaming/static/js/main.62b0f119.js.map",
     "787.14e4bc02.chunk.js.map": "/Streaming/static/js/787.14e4bc02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62b14092.css",
-    "static/js/main.16296115.js"
+    "static/css/main.dfa2e578.css",
+    "static/js/main.62b0f119.js"
   ]
 }
