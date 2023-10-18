@@ -60,8 +60,136 @@
 .card_quiz ul li{ 
     width: 300px;
     height: 200px;
-    border: 1px solid orange;
+    position: relative;
+    border: 1px solid  rgb(236, 83, 6);
+    border-radius: 20px;
+    padding: 20px;
     
 
     
+}
+.card_quiz ul li button{
+    width: 90%;
+    padding: 10px 0;
+    font-size: 25px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(236, 83, 6);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.card_quiz ul li  button a{
+    text-decoration: none;
+    color: white;
+
+}
+.card_quiz ul li img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* wrap_questionQuiz */
+
+
+
+
+
+.wrap_questionQuiz{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.wrap_questionQuiz .left_questions ,
+.wrap_questionQuiz .right_questions{
+    height: 100vh;
+    position: relative;
+   
+}
+.wrap_questionQuiz .right_questions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   
+}
+.wrap_questionQuiz .right_questions .in_right_questions h1{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.in_right_questions{
+    height: 80vh;
+    width: 80%;
+    padding: 20px;
+    background-color: rgb(28, 28, 28) ;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 15px rgb(236, 83, 6) ;
+    position: relative;
+
+}
+
+
+label input:checked label {
+    background-color: red;
+    
+
+     
+  }
+
+.in_right_questions form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 420px;
+    margin: 0 auto;
+    gap: 10px;
+    
+    
+
+}
+.highlighted.correct {
+    background-color: green; /* Couleur verte pour la réponse correcte */
+    color: white; /* Couleur du texte */
+  }
+  
+  .highlighted.incorrect {
+    background-color: red; /* Couleur rouge pour la réponse incorrecte */
+    color: white; /* Couleur du texte */
+  }
+  
+label{  
+    background-color:hsl(0, 1%, 31%) ;
+    width: 200px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.wrap_questionQuiz  .btns_next button{
+    padding: 20px 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+.wrap_questionQuiz .left_questions img{
+    width: 100%;
+    height: 100vh;
+}
+.howwell{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.7), transparent);
+    z-index: 100;
+}
+.howwell p{
+    font-size: 50px;
 }

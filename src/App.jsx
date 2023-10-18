@@ -7,6 +7,7 @@ import Casting from './component/Casting';
 import { Quiz } from './component/Quiz';
 import More from './component/under_component/More';
 import Details from './component/Details';
+import { Question_Quiz } from './component/Question_Quiz';
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/Question" element={<Question />} />
             <Route path="/More" element={<More />} />
             <Route path="/film/:filmTitre" element={<Details/>} />
+            <Route path="/Quiz/:QuizTitre" element={<Question_Quiz/>} />
 
           </Routes>        
 

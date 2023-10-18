@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
 import QuizData from '../data/Quizdata';
 import '../css/Quiz.css';
-import clappedboard from "../assets/clappedboard.png"
 import quiz_img from "../assets/quizineed.png"
+import Films from '../data/data';
 
 export const Quiz = () => {
  
@@ -27,14 +27,12 @@ export const Quiz = () => {
         <div className="wrap_card_quiz">
         <div className='card_quiz'>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+           {Object.keys(Films).map((film , index)=>(
+            <li key={index}>
+              <h1>{Films[film].titre}</h1>
+              <button><Link to={`/Quiz/${film}`} >Commencer le Quiz</Link></button>
+            </li>
+           ))}
           </ul>
         </div>
         </div>

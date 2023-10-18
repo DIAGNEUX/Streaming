@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState , useEffect } from 'react';
+import Accueil from "./Accueil"
+import clappedboard from "../assets/clappedboard.png"
 
 export default function Navbar() {
   const [sticky, setSticky] = useState(false);
@@ -23,7 +25,7 @@ export default function Navbar() {
     <div>
       <div className={`navbar${sticky ? ' sticky' : ''}`}>
         <div className="logo">
-          <p><b>Movie</b></p>
+         <Link to={"/Acceuil"}><img src={clappedboard} alt="" width={"60px"} height={"60px"} /></Link> 
         </div>
         <div className="link">
           <ul>

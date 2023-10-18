@@ -165,3 +165,24 @@
 // }
 
 
+
+
+
+
+{/* <div className='left_questions'>
+        {Object.keys(quizs).map((quiz , index)=>(
+            <div key={index}>
+                <img src={quizs[quiz].img} alt="" />
+            </div>
+        ))}
+        </div>
+
+        <div className='right_questions'>
+        {Object.keys(quizs).map((quiz , index)=>(
+            <div key={index}>
+                <p>{quizs[quiz].question}</p>
+                <p>{quizs[quiz].options}</p>
+            </div>
+        ))}
+        </div>
+         */}
