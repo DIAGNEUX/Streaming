@@ -186,3 +186,130 @@
         ))}
         </div>
          */}
+
+
+
+
+
+
+
+    //      <div className={`in_right_questions
+    //      ${isAnswerCorrect === true && option === quizs[Object.keys(quizs)[questionIndex]].reponse ? 'hadow' : ''}
+    //      ${isAnswerCorrect === false && option === selectedOption ? 'redshadow' : ''}
+    //    `}>
+
+
+
+
+
+
+
+
+//     import React, { useState } from 'react';
+// import { useParams } from 'react-router-dom';
+// import QuizData from '../data/Quizdata';
+// import sad from "../assets/sad.png";
+// import happy from "../assets/happy.png";
+
+// export const Question_Quiz = () => {
+//   const { QuizTitre } = useParams();
+//   const quizs = QuizData[QuizTitre];
+//   const [questionIndex, setQuestionIndex] = useState(0);
+//   const [selectedOption, setSelectedOption] = useState(null);
+//   const [isAnswerSubmitted, setIsAnswerSubmitted] = useState(false);
+//   const [isAnswerCorrect, setIsAnswerCorrect] = useState(null);
+
+//   const handleNextQuestion = () => {
+//     if (questionIndex < Object.keys(quizs).length - 1) {
+//       setQuestionIndex(questionIndex + 1);
+//       setIsAnswerSubmitted(false);
+//       setSelectedOption(null);
+//       setIsAnswerCorrect(null);
+//     } else {
+//       // Gérer la fin du quiz
+//     }
+//   };
+
+//   const handleAnswerSubmit = (selectedOption) => {
+//     const currentQuestion = quizs[Object.keys(quizs)[questionIndex]];
+
+//     if (selectedOption === currentQuestion.reponse) {
+//       setIsAnswerSubmitted(true);
+//       setIsAnswerCorrect(true);
+//     } else {
+//       setIsAnswerSubmitted(true);
+//       setIsAnswerCorrect(false);
+//     }
+
+//     setSelectedOption(selectedOption);
+//   };
+
+//   return (
+//     <div className='wrap_questionQuiz'>
+//       <div className='left_questions'>
+//         {Object.keys(quizs).slice(0, 1).map((quiz, index) => (
+//           <div key={index}>
+//             <img src={quizs[quiz].img} alt="" />
+//             <div className='howwell'>
+//               {/* Affichez ici le score ou d'autres informations si nécessaire */}
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//       {quizs[Object.keys(quizs)[questionIndex]].options.map((option, index) => (
+//       <div className='right_questions'>
+//           <div className={`in_right_questions
+//             ${isAnswerCorrect === true && option === quizs[Object.keys(quizs)[questionIndex]].reponse ? 'greenboxshadow' : ''}
+//             ${isAnswerCorrect === false && option === selectedOption ? 'redboxshadow' : ''}
+//           `}>
+
+//             <div className='resultat_word'>
+//               {isAnswerSubmitted ? (
+//                 isAnswerCorrect === true ? (
+//                   <div>
+//                     <img src={happy} alt="" />
+//                   </div>
+//                 ) : isAnswerCorrect === false ? (
+//                   <div>
+//                     <img src={sad} alt="" />
+//                   </div>
+//                 ) : null
+//               ) : ("")}
+//             </div>
+//             {questionIndex < Object.keys(quizs).length && (
+//               <div>
+//                 <h1>{quizs[Object.keys(quizs)[questionIndex]].question}</h1>
+//                 <form action="">
+//                   {quizs[Object.keys(quizs)[questionIndex]].options.map((option, index) => (
+//                     <label
+//                       key={index}
+//                       className={`option 
+//             ${isAnswerCorrect === true && option === quizs[Object.keys(quizs)[questionIndex]].reponse ? 'correct' : ''}
+//             ${isAnswerCorrect === false && option === selectedOption ? 'incorrect' : ''}
+//             ${isAnswerCorrect === false && option === quizs[Object.keys(quizs)[questionIndex]].reponse ? 'correct' : ''}
+//           `}
+//                     >
+//                       <input
+//                         type="radio"
+//                         value={option}
+//                         name="answer"
+//                         disabled={isAnswerSubmitted}
+//                         checked={selectedOption === option}
+//                         onClick={() => handleAnswerSubmit(option)}
+//                       />
+//                       {option}
+//                     </label>
+//                   ))}
+//                 </form>
+//                 <div className='btns_next'>
+//                   <button className='btn_passer' onClick={handleNextQuestion}>Passer à la question suivante</button>
+//                 </div>
+//               </div>
+//             )}
+//           </div>
+        
+//       </div>
+//       ))}
+//     </div>
+//   );
+// };
