@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Streaming/static/css/main.14a2d004.css",
-    "main.js": "/Streaming/static/js/main.6f801839.js",
+    "main.css": "/Streaming/static/css/main.e145fa87.css",
+    "main.js": "/Streaming/static/js/main.97c29047.js",
     "static/js/787.14e4bc02.chunk.js": "/Streaming/static/js/787.14e4bc02.chunk.js",
     "static/media/la_la_land width.jpg": "/Streaming/static/media/la_la_land width.c9108b992e70cf90dd85.jpg",
     "static/media/fast_furious_9.jpg": "/Streaming/static/media/fast_furious_9.3644ace179f08323cb20.jpg",
@@ -76,12 +76,12 @@
     "static/media/Chadwick_Boseman.webp": "/Streaming/static/media/Chadwick_Boseman.caf126571b426cbb5264.webp",
     "static/media/sala_baker.webp": "/Streaming/static/media/sala_baker.4feb13f59866ed148416.webp",
     "index.html": "/Streaming/index.html",
-    "main.14a2d004.css.map": "/Streaming/static/css/main.14a2d004.css.map",
-    "main.6f801839.js.map": "/Streaming/static/js/main.6f801839.js.map",
+    "main.e145fa87.css.map": "/Streaming/static/css/main.e145fa87.css.map",
+    "main.97c29047.js.map": "/Streaming/static/js/main.97c29047.js.map",
     "787.14e4bc02.chunk.js.map": "/Streaming/static/js/787.14e4bc02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14a2d004.css",
-    "static/js/main.6f801839.js"
+    "static/css/main.e145fa87.css",
+    "static/js/main.97c29047.js"
   ]
 }
