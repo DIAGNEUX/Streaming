@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Streaming/static/css/main.dfa2e578.css",
-    "main.js": "/Streaming/static/js/main.62b0f119.js",
+    "main.css": "/Streaming/static/css/main.14a2d004.css",
+    "main.js": "/Streaming/static/js/main.6f801839.js",
     "static/js/787.14e4bc02.chunk.js": "/Streaming/static/js/787.14e4bc02.chunk.js",
     "static/media/la_la_land width.jpg": "/Streaming/static/media/la_la_land width.c9108b992e70cf90dd85.jpg",
     "static/media/fast_furious_9.jpg": "/Streaming/static/media/fast_furious_9.3644ace179f08323cb20.jpg",
@@ -18,7 +18,6 @@
     "static/media/avengers_endgame width.jpg": "/Streaming/static/media/avengers_endgame width.b689f01813806ae336ab.jpg",
     "static/media/le_seigneur_des_anneaux large.webp": "/Streaming/static/media/le_seigneur_des_anneaux large.c352da590bd6029b2b61.webp",
     "static/media/black_panther.jpg": "/Streaming/static/media/black_panther.896449fdab113da482fa.jpg",
-    "static/media/joker.jpg": "/Streaming/static/media/joker.ef9dc8d7e2204b978ee5.jpg",
     "static/media/le_seigneur_des_anneaux.jpg": "/Streaming/static/media/le_seigneur_des_anneaux.05362fbfb6f984d9b0ed.jpg",
     "static/media/fastfurious width.jpg": "/Streaming/static/media/fastfurious width.08790373b4a0b9ba4428.jpg",
     "static/media/bill_camp.png": "/Streaming/static/media/bill_camp.119cabaedc4a2eb7e9c6.png",
@@ -77,12 +76,12 @@
     "static/media/Chadwick_Boseman.webp": "/Streaming/static/media/Chadwick_Boseman.caf126571b426cbb5264.webp",
     "static/media/sala_baker.webp": "/Streaming/static/media/sala_baker.4feb13f59866ed148416.webp",
     "index.html": "/Streaming/index.html",
-    "main.dfa2e578.css.map": "/Streaming/static/css/main.dfa2e578.css.map",
-    "main.62b0f119.js.map": "/Streaming/static/js/main.62b0f119.js.map",
+    "main.14a2d004.css.map": "/Streaming/static/css/main.14a2d004.css.map",
+    "main.6f801839.js.map": "/Streaming/static/js/main.6f801839.js.map",
     "787.14e4bc02.chunk.js.map": "/Streaming/static/js/787.14e4bc02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfa2e578.css",
-    "static/js/main.62b0f119.js"
+    "static/css/main.14a2d004.css",
+    "static/js/main.6f801839.js"
   ]
 }
