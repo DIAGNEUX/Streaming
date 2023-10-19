@@ -317,14 +317,12 @@ const Films = {
     Casting: [
         { nom: "Joaquin Phoenix", image: JoaquinPhoenix, image_movie: Joaquin },
         { nom: "Bill Camp", image: BillCamp, image_movie: Bill },
-        { nom: "Brett Cullen", image: BrettCullen, image_movie: Brett },
         { nom: "Frances Conroy", image: FrancesConroy, image_movie: Frances },
         { nom: "Glenn Fleshler", image: GlennFleshler, image_movie: Glenn },
-        { nom: "Josh Pais", image: JoshPais, image_movie: Josh },
         { nom: "Leigh Gill", image: LeighGill, image_movie: Leigh },
-        { nom: "Robert De Niro", image: RobertDeNiro, image_movie: Robert },
-        { nom: "Shea Whigham", image: SheaWhigham, image_movie: Shea },
-        { nom: "Zazie Beetz", image: ZazieBeetz, image_movie: Zazie }
+       
+       
+       
     
     ]
   },
