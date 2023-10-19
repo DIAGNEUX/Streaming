@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Streaming/static/css/main.573886d5.css",
-    "main.js": "/Streaming/static/js/main.c681ad43.js",
+    "main.js": "/Streaming/static/js/main.ff8c53f6.js",
     "static/js/787.14e4bc02.chunk.js": "/Streaming/static/js/787.14e4bc02.chunk.js",
     "static/media/la_la_land width.jpg": "/Streaming/static/media/la_la_land width.c9108b992e70cf90dd85.jpg",
     "static/media/fast_furious_9.jpg": "/Streaming/static/media/fast_furious_9.3644ace179f08323cb20.jpg",
@@ -77,11 +77,11 @@
     "static/media/sala_baker.webp": "/Streaming/static/media/sala_baker.4feb13f59866ed148416.webp",
     "index.html": "/Streaming/index.html",
     "main.573886d5.css.map": "/Streaming/static/css/main.573886d5.css.map",
-    "main.c681ad43.js.map": "/Streaming/static/js/main.c681ad43.js.map",
+    "main.ff8c53f6.js.map": "/Streaming/static/js/main.ff8c53f6.js.map",
     "787.14e4bc02.chunk.js.map": "/Streaming/static/js/787.14e4bc02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.573886d5.css",
-    "static/js/main.c681ad43.js"
+    "static/js/main.ff8c53f6.js"
   ]
 }
