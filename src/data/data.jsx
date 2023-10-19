@@ -16,7 +16,6 @@ import VinDiesel from "../assets/FastandFurious/Casting/vin_diesel.webp";
 import MichelleRodriguez   from "../assets/FastandFurious/Casting/michelle_rodriguez.webp";
 import TyreseGibson from "../assets/FastandFurious/Casting/tyrese_gibson.webp";
 import JohnCena from "../assets/FastandFurious/Casting/john_cena.webp";
-import CharlizeTheron from "../assets/FastandFurious/Casting/charlize_theron.webp";
 import jordana_brewster from "../assets/FastandFurious/Casting/jordana_brewster.webp";
 
 
@@ -32,35 +31,34 @@ import MichaelBJordan  from "../assets/BlackPanther/Casting/michael_b_jordan.web
 import LupitaNyongo  from "../assets/BlackPanther/Casting/lupita_nyong_o.jpg";
 import DanaiGurira from "../assets/BlackPanther/Casting/danai_gurira.webp";
 import MartinFreeman  from "../assets/BlackPanther/Casting/martin_freeman.webp";
-import Angelabassett  from "../assets/BlackPanther/Casting/angela_bassett.webp";
+
 
 import RobertDowneyJr  from "../assets/Avengers/Casting/robert_downey_jr.webp";
 import ChrisEvans  from "../assets/Avengers/Casting/chris_evans.webp";
 import MarkRuffalo from "../assets/Avengers/Casting/mark_ruffalo.webp";
 import ChrisHemsworth  from "../assets/Avengers/Casting/chris_hemsworth.webp";
 import ScarlettJohansson  from "../assets/Avengers/Casting/scarlett_johansson.webp";
-import JeremyRenner  from "../assets/Avengers/Casting/jeremy_renner.webp";
+
 
 import LeonardoDiCaprio  from "../assets/Titanic/Casting/leonardo_di_caprio.webp";
 import KateWinslet  from "../assets/Titanic/Casting/kate_winslet.webp";
 import BillyZane   from "../assets/Titanic/Casting/billy_zane.webp";
 import KathyBates  from "../assets/Titanic/Casting/kathy_bates.webp";
 import FrancesFisher  from "../assets/Titanic/Casting/frances_fisher.webp";
-import Gloriastuart  from "../assets/Titanic/Casting/gloria_stuart.jpg";
+
 
 import RyanGosling  from "../assets/La La Land/Casting/ryan_gosling.webp";
 import EmmaStone  from "../assets/La La Land/Casting/emma_stone.webp";
 import JohnLegend  from "../assets/La La Land/Casting/john_legend.webp";
 import JKSimmons  from "../assets/La La Land/Casting/j_k_simmons.webp";
 import RosemarieDeWitt  from "../assets/La La Land/Casting/rosemarie_de_witt.webp";
-import FinnWittrock  from "../assets/La La Land/Casting/finn_wittrock.webp";
 
 import ZacEfron  from "../assets/We Are Your Friends/Casting/zac_efron.webp";
 import EmilyRatajkowski  from "../assets/We Are Your Friends/Casting/Emily_Ratajkowski.webp";
 import WesBentley  from "../assets/We Are Your Friends/Casting/Wes_Bentley.webp";
 import JonnyWeston  from "../assets/We Are Your Friends/Casting//jonny_weston.png";
 import ShilohFernandez  from "../assets/We Are Your Friends/Casting/shiloh_fernandez.webp";
-import JonBernthal  from "../assets/We Are Your Friends/Casting/jon_bernthal.webp";
+
 
 
 
@@ -70,7 +68,6 @@ import avatar2 from "../assets/avatar-2.png"
 import avatar3 from "../assets/avatar-3.png"
 import avatar4 from "../assets/avatar-4.png"
 import avatar5 from "../assets/avatar-5.png"
-
 
 
 // image_movie
@@ -84,6 +81,51 @@ import Leigh from "../assets/joker/casting/hover/leigh.jpeg";
 import Robert from "../assets/joker/casting/hover/Robert.jpeg";
 import Shea from "../assets/joker/casting/hover/shea.jpeg";
 import Zazie  from "../assets/joker/casting/hover/Zazie.jpeg"
+
+
+import Chrishems  from "../assets/Avengers/Casting/hover/Chris Hemsworth.jpg"
+import Chris  from "../assets/Avengers/Casting/hover/chris.jpeg"
+import Mark  from "../assets/Avengers/Casting/hover/Mark.png"
+import robert  from "../assets/Avengers/Casting/hover/robert.jpeg"
+import scarlett  from "../assets/Avengers/Casting/hover/scarlett.jpg"
+
+import caswick  from "../assets/BlackPanther/Casting/hover/cadwick.jpeg"
+import Danai  from "../assets/BlackPanther/Casting/hover/Danai.jpeg"
+import Lupita  from "../assets/BlackPanther/Casting/hover/Lupita.jpeg"
+import Micheal  from "../assets/BlackPanther/Casting/hover/Michael.jpeg"
+import Martin  from "../assets/BlackPanther/Casting/hover/Martin.jpeg"
+
+import Tyrese  from "../assets/FastandFurious/Casting/hover/Tyrese.jpeg"
+import john  from "../assets/FastandFurious/Casting/hover/john.jpeg"
+import jordina  from "../assets/FastandFurious/Casting/hover/jordana.jpeg"
+import Michel from "../assets/FastandFurious/Casting/hover/Michelle.jpeg"
+import Vin  from "../assets/FastandFurious/Casting/hover/Vin.jpeg"
+
+import Emma  from "../assets/La La Land/Casting/hover/emma.jpeg"
+import johns  from "../assets/La La Land/Casting/hover/john.jpeg"
+import Rosemarie  from "../assets/La La Land/Casting/hover/Rosemarie.jpg"
+import ryan  from "../assets/La La Land/Casting/hover/ryan.jpeg"
+import simmons  from "../assets/La La Land/Casting/hover/Simmons.jpeg"
+
+import elijah  from "../assets/SeigneurdesAnneaux/Casting/hover/elijah.jpeg"
+import ianholm  from "../assets/SeigneurdesAnneaux/Casting/hover/ian holm.jpeg"
+import ianmckellen  from "../assets/SeigneurdesAnneaux/Casting/hover/ian mckellen.jpeg"
+import sean  from "../assets/SeigneurdesAnneaux/Casting/hover/Sean.jpeg"
+import viggo  from "../assets/SeigneurdesAnneaux/Casting/hover/Viggo.jpeg"
+
+import billy  from "../assets/Titanic/Casting/hover/billy.jpeg"
+import frances  from "../assets/Titanic/Casting/hover/Frances.jpg"
+import kate  from "../assets/Titanic/Casting/hover/Kate.jpeg"
+import kathy  from "../assets/Titanic/Casting/hover/Kathy.jpeg"
+import leonardo  from "../assets/Titanic/Casting/hover/leonardo.jpeg"
+
+import emily  from "../assets/We Are Your Friends/Casting/hover/Emily.jpeg"
+import jonny  from "../assets/We Are Your Friends/Casting/hover/Jonny.jpeg"
+import shiloh  from "../assets/We Are Your Friends/Casting/hover/shiloh.jpeg"
+import wes  from "../assets/We Are Your Friends/Casting/hover/wes.jpeg"
+import zac  from "../assets/We Are Your Friends/Casting/hover/zac.jpeg"
+
+
 
 // joker
 // affiche
@@ -196,12 +238,11 @@ const Films = {
       },
     ],
     Casting: [
-      { nom: "Ryan Gosling", image: RyanGosling },
-      { nom: "Emma Stone", image: EmmaStone },
-      { nom: "John Legend", image: JohnLegend },
-      { nom: "J.K. Simmons", image: JKSimmons },
-      { nom: "Rosemarie DeWitt", image: RosemarieDeWitt },
-      { nom: "Finn Wittrock", image: FinnWittrock },
+      { nom: "Ryan Gosling", image: RyanGosling , image_movie:ryan },
+      { nom: "Emma Stone", image: EmmaStone , image_movie:Emma},
+      { nom: "John Legend", image: JohnLegend , image_movie:johns },
+      { nom: "J.K. Simmons", image: JKSimmons , image_movie: simmons},
+      { nom: "Rosemarie DeWitt", image: RosemarieDeWitt , image_movie:Rosemarie },
     ]
   },
 
@@ -342,12 +383,11 @@ const Films = {
     },
   ],
   Casting: [
-    { nom: "Vin Diesel", image: VinDiesel },
-    { nom: "Michelle Rodriguez", image: MichelleRodriguez },
-    { nom: "Tyrese Gibson", image: TyreseGibson },
-    { nom: "jordana brewster ", image: jordana_brewster },
-    { nom: "John Cena", image: JohnCena },
-    { nom: "Charlize Theron", image: CharlizeTheron },
+    { nom: "Vin Diesel", image: VinDiesel ,image_movie: Vin },
+    { nom: "Michelle Rodriguez", image: MichelleRodriguez ,image_movie:Michel },
+    { nom: "Tyrese Gibson", image: TyreseGibson ,image_movie:Tyrese },
+    { nom: "jordana brewster ", image: jordana_brewster ,image_movie:jordina },
+    { nom: "John Cena", image: JohnCena ,image_movie:john},
   ]
   },
 
@@ -405,12 +445,11 @@ const Films = {
       },
     ],
     Casting: [
-      { nom: "Elijah Wood", image: ElijahWood },
-      { nom: "Ian McKellen", image: IanMcKellen },
-      { nom: "Viggo Mortensen", image: ViggoMortensen },
-      { nom: "Sean Astin", image: SeanAstin },
-      { nom: "Ian Holm", image: IanHolm },
-      { nom: "Sala baker", image: Salabaker },
+      { nom: "Elijah Wood", image: ElijahWood ,image_movie: elijah},
+      { nom: "Ian McKellen", image: IanMcKellen ,image_movie:ianmckellen },
+      { nom: "Viggo Mortensen", image: ViggoMortensen ,image_movie:viggo  },
+      { nom: "Sean Astin", image: SeanAstin ,image_movie: sean},
+      { nom: "Ian Holm", image: IanHolm ,image_movie:ianholm},
     ]
   },
 
@@ -468,12 +507,11 @@ const Films = {
       },
     ],
     Casting: [
-      { nom: "Chadwick Boseman", image: ChadwickBoseman },
-      { nom: "Michael B. Jordan", image: MichaelBJordan },
-      { nom: "Lupita Nyong'o", image: LupitaNyongo },
-      { nom: "Danai Gurira", image: DanaiGurira },
-      { nom: "Martin Freeman", image: MartinFreeman },
-      { nom: "Angela bassett", image: Angelabassett },
+      { nom: "Chadwick Boseman", image: ChadwickBoseman ,image_movie:caswick },
+      { nom: "Michael B. Jordan", image: MichaelBJordan ,image_movie:Micheal},
+      { nom: "Lupita Nyong'o", image: LupitaNyongo ,image_movie:Lupita },
+      { nom: "Danai Gurira", image: DanaiGurira ,image_movie:Danai },
+      { nom: "Martin Freeman", image: MartinFreeman ,image_movie:Martin},
     ]
   },
 
@@ -563,12 +601,11 @@ const Films = {
         },
       ],
       Casting: [
-        { nom: "Robert Downey Jr.", image: RobertDowneyJr },
-        { nom: "Chris Evans", image: ChrisEvans },
-        { nom: "Mark Ruffalo", image: MarkRuffalo },
-        { nom: "Chris Hemsworth", image: ChrisHemsworth },
-        { nom: "Scarlett Johansson", image: ScarlettJohansson },
-        { nom: "Jeremy Renner", image: JeremyRenner },
+        { nom: "Robert Downey Jr.", image: RobertDowneyJr ,image_movie:robert},
+        { nom: "Chris Evans", image: ChrisEvans ,image_movie:Chris},
+        { nom: "Mark Ruffalo", image: MarkRuffalo ,image_movie:Mark},
+        { nom: "Chris Hemsworth", image: ChrisHemsworth ,image_movie:Chrishems},
+        { nom: "Scarlett Johansson", image: ScarlettJohansson ,image_movie:scarlett},
       ]
     },
 
@@ -656,12 +693,11 @@ const Films = {
             },
           ],
           Casting: [
-            { nom: "Leonardo DiCaprio", image: LeonardoDiCaprio },
-            { nom: "Kate Winslet", image: KateWinslet },
-            { nom: "Billy Zane", image: BillyZane },
-            { nom: "Kathy Bates", image: KathyBates },
-            { nom: "Frances Fisher", image: FrancesFisher },
-            { nom: "Gloria stuart", image: Gloriastuart },
+            { nom: "Leonardo DiCaprio", image: LeonardoDiCaprio ,image_movie:leonardo },
+            { nom: "Kate Winslet", image: KateWinslet ,image_movie:kate},
+            { nom: "Billy Zane", image: BillyZane ,image_movie: billy},
+            { nom: "Kathy Bates", image: KathyBates ,image_movie:kathy},
+            { nom: "Frances Fisher", image: FrancesFisher ,image_movie:frances },
           ]
         },
         // La La Land
@@ -753,12 +789,11 @@ const Films = {
                     },
                   ],
                   Casting: [
-                    { nom: "Zac Efron", image: ZacEfron },
-                    { nom: "Wes Bentley", image: WesBentley },
-                    { nom: "Emily Ratajkowski", image: EmilyRatajkowski },
-                    { nom: "Jonny Weston", image: JonnyWeston },
-                    { nom: "Shiloh Fernandez", image: ShilohFernandez },
-                    { nom: "Jon Bernthal", image: JonBernthal },
+                    { nom: "Zac Efron", image: ZacEfron ,image_movie:zac},
+                    { nom: "Wes Bentley", image: WesBentley ,image_movie:wes},
+                    { nom: "Emily Ratajkowski", image: EmilyRatajkowski ,image_movie:emily},
+                    { nom: "Jonny Weston", image: JonnyWeston ,image_movie:jonny},
+                    { nom: "Shiloh Fernandez", image: ShilohFernandez ,image_movie:shiloh},
                   ]
                 },
                 

@@ -84,7 +84,7 @@ const [sticky, setSticky] = useState(false);
                     <h1>Casting</h1>
                     <hr />
                     <div className='casting_more'>
-                {film.Casting.slice(0, 5).map((cast, index) => (
+                {film.Casting.map((cast, index) => (
                     <div key={index} className="actor-wrapper">
                         <img src={cast.image}  className="actor-image" />
                         <img src={cast.image_movie} className="movie-image" />
@@ -92,9 +92,7 @@ const [sticky, setSticky] = useState(false);
                     </div>
                 ))}
             </div>
-                <div className='btn_casting'>
-                                <button>D'autres acteurs</button>
-                            </div>
+          
                 </div>
                 </Element>
                 <Element name="Critique" className="element">

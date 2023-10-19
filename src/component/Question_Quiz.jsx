@@ -5,6 +5,7 @@ import QuizData from '../data/Quizdata';
 import sad from "../assets/sad.png";
 import happy from "../assets/happy.png";
 import ConfettiGenerator from "confetti-js";
+import { Link } from 'react-router-dom';
 
 export const Question_Quiz = () => {
   const { QuizTitre } = useParams();
@@ -13,8 +14,14 @@ export const Question_Quiz = () => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [isAnswerSubmitted, setIsAnswerSubmitted] = useState(false);
   const [isAnswerCorrect, setIsAnswerCorrect] = useState(null);
-  const [isQuizFinished, setIsQuizFinished] = useState(false); // Ajout de l'état pour suivre si le quiz est terminé
+  const [isQuizFinished, setIsQuizFinished] = useState(false); 
   const [score, setScore] = useState(0);
+  const [nbr_question , Setnbr_question] = useState([])
+  const MAX_SCORE = Object.keys(quizs).length;
+  const Pasable =  4;
+  const bien = MAX_SCORE - 3 ;
+  const tres_bien = MAX_SCORE - 2;
+  const Felicitation = MAX_SCORE ; 
 
   const handleNextQuestion = () => {
     if (questionIndex < Object.keys(quizs).length - 1) {
@@ -23,14 +30,14 @@ export const Question_Quiz = () => {
       setSelectedOption(null);
       setIsAnswerCorrect(null);
     } else {
-      setIsQuizFinished(true); // Marquer le quiz comme terminé
+      setIsQuizFinished(true); 
     }
   };
 
   const handleAnswerSubmit = (selectedOption) => {
-    const currentQuestion = quizs[Object.keys(quizs)[questionIndex]];
+    const QuestionActuelle = quizs[Object.keys(quizs)[questionIndex]];
 
-    if (selectedOption === currentQuestion.reponse) {
+    if (selectedOption === QuestionActuelle.reponse) {
       setIsAnswerSubmitted(true);
       setIsAnswerCorrect(true);
       setScore(score + 1);
@@ -42,17 +49,25 @@ export const Question_Quiz = () => {
     setSelectedOption(selectedOption);
   };
 
-  const MAX_SCORE = Object.keys(quizs).length
   useEffect(() => {
     const confettiSettings = { target: 'my-canvas' };
     const confetti = new ConfettiGenerator(confettiSettings);
 
-    if (isQuizFinished && score === MAX_SCORE) {
+    if (isQuizFinished && score === MAX_SCORE ) {
       confetti.render();
     }
 
     return () => confetti.clear();
   }, [isQuizFinished, score]);
+  const handleRelance = () => {
+    window.location.reload();
+  };
+
+  const NbrQuestion = questionIndex + 1;
+  const QuestionRestant = MAX_SCORE - NbrQuestion;
+
+
+  
 
   return (
     <>
@@ -70,12 +85,49 @@ export const Question_Quiz = () => {
 
       <div className='right_questions'>
       {isQuizFinished ? ( 
-        <div>
         <>
-        <h1>Felicitation !</h1>
-        <p>Résultat : {score} / {Object.keys(quizs).length}</p>
+        
+         <div className='give_result'>
+            <div className="in_give_result">
+
+        <div className='in_give_result_score'>
+              {score >= tres_bien ? (
+                 <div>
+                 <img src={happy} alt="" />
+                 <h1>Felicitation ! </h1>
+             </div>
+              ) : score >= bien ? (
+                <div>
+                    <img src={happy} alt="" />
+                <h1>Bien</h1>
+                </div>
+              ) : score >= Pasable ? (
+                <div>
+                    <img src={sad} alt="" />
+                <h1>Passable</h1>
+                </div>
+              ) :(
+                <div>
+                    <img src={sad} alt="" />
+                <h1>Oups ! </h1>
+                </div>
+              )}
+              
+       <div className='score'>
+        <div>
+        <p>Votre score est de : </p>
+        <h1> {score} / {MAX_SCORE}</h1>
+        <div className='btn_score'>
+            <button onClick={handleRelance}>Recommencer</button>
+            <button><Link to="/Quiz">Autres Quiz</Link></button>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+              </div>
         </>
-      </div>
+
          ):( 
         <div className="in_right_questions">
             
@@ -96,14 +148,12 @@ export const Question_Quiz = () => {
             <div>
               {isQuizFinished ? (
                 <div>
-                    <>
-                    <p>C'est fini !</p>
-                    <p>Résultat : {score} / {Object.keys(quizs).length}</p>
-                    </>
+                    
                   </div>
                 
               ) : (
                 <div>
+                    <p className='nombrereponse'> {NbrQuestion} / {MAX_SCORE}</p>
                   <h1>{quizs[Object.keys(quizs)[questionIndex]].question}</h1>
                   <form action="">
                     {quizs[Object.keys(quizs)[questionIndex]].options.map((option, index) => (

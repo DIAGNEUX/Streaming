@@ -230,6 +230,7 @@
 
 .movie-image {
     display: none;
+    object-fit: cover;
 }
 
 .actor-wrapper{

@@ -156,6 +156,7 @@ label{
     padding: 20px 20px;
     border-radius: 10px;
     text-align: center;
+    cursor: pointer;
     
 }
 label input{
@@ -164,10 +165,21 @@ label input{
 .wrap_questionQuiz  .btns_next button{
     padding: 20px 20px;
     border-radius: 10px;
+    color: black;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    outline: none;
+    border: none;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+   
 
+}
+.wrap_questionQuiz  .btns_next button:hover{
+    transform: scale(1.1);
+    
 }
 .wrap_questionQuiz .left_questions img{
     width: 100%;
@@ -221,4 +233,52 @@ label input{
     left: 0;
     height: 100vh;
     width: 100%;
+}
+
+.in_give_result{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+.in_give_result_score{
+    width: 300px;
+    text-align: center;
+
+}
+.give_result .score .btn_score{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.give_result .score .btn_score button{
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    background-color: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.give_result .score .btn_score button a{
+    text-decoration: none;
+    color: black;
+}
+.give_result h1{
+    font-size: 40px;
+}
+.give_result p:last-child{
+    font-size: 50px;
+}
+.nombrereponse{
+    text-align: end;
 }
